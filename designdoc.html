@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Project</title>
+		<meta charset="utf-8"></meta>
+
+		<style>
+			body{
+				margin: 0px;
+				padding: 0px;
+				background: #9B9E9D;
+			}
+
+			.container{
+				background: black;
+				width: 980px;
+				margin: 0 auto;
+			}
+
+				.container #title{
+					font-size: 35px;
+					margin: 0px;
+					padding-top: 40px;				
+				}
+
+				.container p{
+					font-size: 18px;
+					line-height: 27px;
+					color: white;
+					font-family: Helvetica, sans-serif;
+					text-align: center;
+					padding-left: 10px;
+					padding-right: 10px;
+				}
+
+				.container section{
+					margin-top: 25px;
+					margin-bottom: 25px;
+				}
+
+					.container section .header{
+						font-size: 25px;
+						margin: 0px;
+						padding: 0px;
+					}
+
+					.container section img{
+						display: block;
+						margin: 0 auto;
+						margin-top: 5px;
+						margin-bottom: 20px;
+					}
+		</style>
+	</head>
+
+	<body>
+		<div class="container">
+			<p id="title">Task Organizr</p>
+			<section>
+				<p class="header">Abstract</p>
+				<p> 
+					This website will be a website in which the user can record assignments from their mobile or desktop browser,
+					rank them with levels of priority, and record when they need to be done. When the user logs in, they will be presented 
+					with the highest priority first, and each priority level will be sorted by the closest due date.
+				</p>
+			<section>
+			<section>
+				<p class="header">Concept</p>
+				<p> 
+					A task managing application with a elegant and responsive user interface.
+				</p>
+			<section>				
+			<section>
+				<p class="header">Multi-User?</p>
+				<p>
+					This application will support multiple users by allowing as many people as possible to log into the client and view or edit
+					data. Even though many users are allowed, they can't interact with each other, only with the server.
+				</p>
+			</section>
+			<section>
+				<p class="header">Client</p>
+				<p>
+					The client will be browser based, with a responsive design to work on mobile browsers as well. Due to this constraint, the design will be relatively simple, just showing different tasks organized by whatever pattern is decided on, and buttons to add or remove assignments.
+				</p>
+			</section>
+			<section>
+				<p class="header">Server</p>
+				<p>
+					The server will be used primarily to store users and tasks in a database, and link each user to his/her tasks. The server will also handle adding and removing tasks when a user chooses to. I am thinking of using either a SQL database with PHP or Node.js.
+				</p>
+			</section>
+			<section style="background: white;">
+				<p class="header" style="color: black;">User Interface</p>
+				<p class="header" style="color: black;">Desktop</p>
+				<img src="desktop-look.png" />
+				<p class="header" style="color: black;">Mobile</p>
+				<img src="mobile-look.png" />
+			</section>
+			<section>
+				<p class="header">Thoughts</p>
+				<p>
+					I have used and seen a lot of task organizing apps and calender applications that have way too much to do on it, where as a simple task interface that you can access easily on the go seems to be much more helpful.
+				</p>
+			</section>
+		</div>
+	</body>
+</html>
